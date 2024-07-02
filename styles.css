@@ -1,0 +1,111 @@
+html, body{
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+.page-id-13 a:hover
+{
+	color: #c914c9;
+}
+
+h1.entry-title{
+	text-align: center;
+	font-family: 'Roboto Mono' !important;
+	font-weight: 800;
+}
+
+h2.entry-title{
+	text-align: center;
+	font-family: 'Roboto Mono' !important;
+	font-weight: 700;
+}
+
+.ast-excerpt-container > p{
+	color: #000 !important;
+	font-family: 'Roboto Mono' !important;
+text-align: justify;
+}
+
+img.wp-post-image{
+	display: none;
+}
+
+p.read-more{
+	text-align: center !important;
+}
+
+p.read-more > a{
+	background: #000c40 !important;
+	color: #c914c9 !important;
+	border: 2px double #000c40;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+p.read-more > a:hover{
+	background: #fff !important;
+}
+
+a.post-508, a.post-502, a.post-2185, a.post-2861, a.post-2963, span.cat-links > a
+{
+	color: #000c40 !important;
+}
+
+.elementor-widget-container > p > a, .elementor-tab-content > ol > li > a, .elementor-tab-content > ol > li > strong > a{
+	color: #000 !important;
+	text-decoration: none !important;
+}
+
+.elementor-widget-container > p > a:hover, .elementor-tab-content > ol > li > a:hover, .elementor-tab-content > ol > li > strong > a:hover{
+	color: #c914c9 !important;
+}
+
+.teamimage{
+	width: 240px !important;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 30px;
+}
+
+header.site-header{
+	background: transparent;
+	position: fixed;
+	top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+	gap: 150px;
+  align-items: center;
+  z-index: 100;
+} 
+
+.sub-menu li a{
+	text-transform: lowercase;
+}
+
+.post-4047{
+	margin-top: 100px;
+}
+
+#menu-item-279 > ul,
+#menu-item-278 > ul,
+#menu-item-277 > ul,
+#menu-item-276 > ul,
+#menu-item-275 > ul{
+    left: 100%;
+    right: auto;
+}
+
+
+/*Responsive BREAKPOINTS*/
+
+@media (max-width:550px){
+	svg.ast-mobile-svg{
+		width: 48px !important;
+		height: 48px !important;
+	}
+	
+	.respo-center{
+		text-align: center !important;
+	}
+}
