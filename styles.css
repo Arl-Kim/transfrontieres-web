@@ -3,11 +3,6 @@ html, body{
 	overflow-x: hidden;
 }
 
-.page-id-13 a:hover
-{
-	color: #c914c9;
-}
-
 h1.entry-title{
 	text-align: center;
 	font-family: 'Roboto Mono' !important;
@@ -23,7 +18,7 @@ h2.entry-title{
 .ast-excerpt-container > p{
 	color: #000 !important;
 	font-family: 'Roboto Mono' !important;
-text-align: justify;
+	text-align: justify;
 }
 
 img.wp-post-image{
@@ -71,12 +66,12 @@ header.site-header{
 	background: transparent;
 	position: fixed;
 	top: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
+  	width: 100%;
+	display: flex;
+	justify-content: center;
 	gap: 150px;
-  align-items: center;
-  z-index: 100;
+	align-items: center;
+	z-index: 100;
 } 
 
 .sub-menu li a{
