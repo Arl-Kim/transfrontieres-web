@@ -89,6 +89,13 @@ header.site-header{
 
 /*Responsive BREAKPOINTS*/
 
+@media (max-width:1200px){
+	#get_served{
+		margin-top: 200px;
+		margin-right: 50px;
+	}
+}
+
 @media (max-width:550px){
 	svg.ast-mobile-svg{
 		width: 48px !important;
