@@ -52,7 +52,7 @@ a.post-508, a.post-502, a.post-2185, a.post-2861, a.post-2963, span.cat-links > 
 }
 
 .elementor-widget-container > p > a, .elementor-tab-content > ol > li > a, .elementor-tab-content > ol > li > strong > a{
-	color: #000 !important;
+	color: #000c40 !important;
 	text-decoration: none !important;
 }
 
@@ -98,6 +98,12 @@ header.site-header{
 	#get_served{
 		margin-top: 200px;
 		margin-right: 50px;
+	}
+}
+
+@media (max-width:655px){
+	.main-navigation #ast-hf-mobile-menu{
+		text-align: center !important;
 	}
 }
 
