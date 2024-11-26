@@ -1,40 +1,42 @@
-html, body{
+html,
+body {
 	max-width: 100%;
 	overflow-x: hidden;
 }
 
-button, a{
+button,
+a {
 	-webkit-tap-highlight-color: transparent !important;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
 }
 
-h1.entry-title{
+h1.entry-title {
 	text-align: center;
 	font-family: 'Roboto Mono' !important;
 	font-weight: 800;
 }
 
-h2.entry-title{
+h2.entry-title {
 	text-align: center;
 	font-family: 'Roboto Mono' !important;
 	font-weight: 700;
 }
 
-.ast-excerpt-container > p{
+.ast-excerpt-container > p {
 	color: #000c40 !important;
 	font-family: 'Roboto Mono' !important;
 	text-align: justify;
 }
 
-img.wp-post-image{
+img.wp-post-image {
 	display: none;
 }
 
-p.read-more{
+p.read-more {
 	text-align: center !important;
 }
 
-p.read-more > a{
+p.read-more > a {
 	background: #000c40 !important;
 	color: #c914c9 !important;
 	border: 2px double #000c40;
@@ -42,25 +44,34 @@ p.read-more > a{
 	border-radius: 10px;
 }
 
-p.read-more > a:hover{
+p.read-more > a:hover {
 	background: #fff !important;
 }
 
-a.post-508, a.post-502, a.post-2185, a.post-2861, a.post-2963, span.cat-links > a
+a.post-508,
+a.post-502,
+a.post-2185,
+a.post-2861,
+a.post-2963,
+span.cat-links > a
 {
 	color: #000c40 !important;
 }
 
-.elementor-widget-container > p > a, .elementor-tab-content > ol > li > a, .elementor-tab-content > ol > li > strong > a{
+.elementor-widget-container > p > a,
+.elementor-tab-content > ol > li > a,
+.elementor-tab-content > ol > li > strong > a {
 	color: #000c40 !important;
 	text-decoration: none !important;
 }
 
-.elementor-widget-container > p > a:hover, .elementor-tab-content > ol > li > a:hover, .elementor-tab-content > ol > li > strong > a:hover{
+.elementor-widget-container > p > a:hover,
+.elementor-tab-content > ol > li > a:hover,
+.elementor-tab-content > ol > li > strong > a:hover {
 	color: #c914c9 !important;
 }
 
-header.site-header{
+header.site-header {
 	background: transparent;
 	position: fixed;
 	top: 0;
@@ -72,13 +83,13 @@ header.site-header{
 	z-index: 100;
 } 
 
-.sub-menu li a{
+.sub-menu li a {
 	text-transform: lowercase;
 }
 
 .post-4047,
 .page-id-1439,
-.page-id-3188{
+.page-id-3188 {
 	margin-top: 100px;
 }
 
@@ -86,7 +97,7 @@ header.site-header{
 #menu-item-278 > ul,
 #menu-item-277 > ul,
 #menu-item-276 > ul,
-#menu-item-275 > ul{
+#menu-item-275 > ul {
     left: 100%;
     right: auto;
 }
@@ -94,26 +105,26 @@ header.site-header{
 
 /*Responsive BREAKPOINTS*/
 
-@media (max-width:1200px){
-	#get_served{
+@media (max-width:1200px) {
+	#get_served {
 		margin-top: 200px;
 		margin-right: 50px;
 	}
 }
 
-@media (max-width:655px){
-	.main-navigation #ast-hf-mobile-menu{
+@media (max-width:655px) {
+	.main-navigation #ast-hf-mobile-menu {
 		text-align: center !important;
 	}
 }
 
-@media (max-width:550px){
-	svg.ast-mobile-svg{
+@media (max-width:550px) {
+	svg.ast-mobile-svg {
 		width: 48px !important;
 		height: 48px !important;
 	}
 	
-	.respo-center{
+	.respo-center {
 		text-align: center !important;
 	}
 }
